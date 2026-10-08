@@ -25,7 +25,7 @@ export default function Home() {
       "Live SCADA-style dashboard for a simulated prepaid energy meter with GSM SMS low-balance alerts and USSD balance queries.",
     ogTitle: "GSM Prepaid Energy Meter Monitor",
     ogDescription:
-      "Real-time prepaid energy meter simulation with threshold SMS alerts over Africa's Talking.",
+      "Real-time prepaid energy meter simulation with EbulkSMS threshold alerts and Africa's Talking USSD.",
   });
   const { session, loading } = useSession();
   if (loading) {

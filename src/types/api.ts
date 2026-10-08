@@ -291,7 +291,7 @@ export interface OpsAnalytics {
 
 export interface CommsConfig {
   configured: boolean;
-  environment: string;
+  provider: string;
   senderId: string;
   serviceCode: string;
 }
